@@ -102,7 +102,9 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Speechlet\MenuUtterances.txt" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="App_Data\menu.json" />
   </ItemGroup>
